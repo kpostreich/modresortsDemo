@@ -86,7 +86,7 @@ public class DefaultWeatherData {
 		
 		String dataFileName = null;
 		if (Constants.PARIS.equals(getCity())) {
-			dataFileName = "FileNotExist-parisVisibiltyWeatherData.json";
+			dataFileName = "parisVisibiltyWeatherData.json";
 		} else if (Constants.LAS_VEGAS.equals(getCity())) {
 			dataFileName = "lasVegasVisibilityWeatherData.json";
 		} else if (Constants.SAN_FRANCISCO.equals(getCity())) {
